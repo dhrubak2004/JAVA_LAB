@@ -5,7 +5,6 @@ class Rectangle {
     double breadth;
     double area;
     double perimeter;
-
     void read() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter length: ");
@@ -13,7 +12,6 @@ class Rectangle {
         System.out.print("Enter breadth: ");
         breadth = sc.nextDouble();
     }
-
     void calculate() {
         area = length * breadth;
         perimeter = 2 * (length + breadth);

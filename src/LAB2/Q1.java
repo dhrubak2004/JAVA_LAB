@@ -4,9 +4,9 @@ public class Q1 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int even=0,odd=0;
+        System.out.print("Enter 10 numbers:");
         for(int i=0;i<10;i++)
         {
-            System.out.print("Enter number:");
             int num=sc.nextInt();
             if(num%2==0)
                 even++;
