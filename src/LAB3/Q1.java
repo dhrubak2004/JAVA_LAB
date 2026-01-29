@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 class Plastic2D {
     double length, width;
-
     void dim2D(double l, double w) {
         length = l;
         width = w;
