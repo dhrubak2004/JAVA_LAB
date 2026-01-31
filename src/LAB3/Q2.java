@@ -1,12 +1,11 @@
 package LAB3;
-import javax.swing.*;
 import java.util.Scanner;
 class Plate{
     double length,breadth;
     Plate(double l,double b){
         length=l;
         breadth=b;
-        System.out.println("Dimensions of the box are:");
+        System.out.println("Dimensions of the plate are:");
         System.out.println("Length:"+length);
         System.out.println("Breadth:"+breadth);
     }
